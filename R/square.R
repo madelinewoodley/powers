@@ -9,6 +9,9 @@
 #' square(4)
 #' square(c(1,2,3))
 #'
+#' library(palmerpenguins)
+#' square(palmerpenguins::penguins$bill_length_mm)
+#'
 
 #' @export
 
